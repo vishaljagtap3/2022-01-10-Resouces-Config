@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/bgColor"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:text="@string/welcome_message"
+        android:id="@+id/txtInfo" />
+
+    <EditText
+
+        android:id="@+id/edtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Set Info"
+        android:id="@+id/btnSetInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

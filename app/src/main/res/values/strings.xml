@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="welcome_message">Welcome to BitCode</string>
+
+    <integer name="enc_code">1010101</integer>
+    <color name="bgColor">#de00ff</color>
+    <bool name="isPassword">true</bool>
+    <dimen name="txt_width">200dp</dimen>
+    <dimen name="txt_height">100dp</dimen>
+
+    <string-array name="cities">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+    </string-array>
+
+    <integer-array name="codes">
+        <item>411000</item>
+        <item>400000</item>
+        <item>500000</item>
+    </integer-array>
+</resources>
